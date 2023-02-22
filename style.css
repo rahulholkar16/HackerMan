@@ -1,0 +1,106 @@
+.
+{
+    padding: auto;
+    margin: auto;
+    height: 100vh;
+    width: 100vh;
+}
+
+body{
+    background: #222;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#box{
+    display: flex;
+    width: 800px;
+    height: 500px;
+    box-shadow: 0 2px 4px 0 ,
+    0 4px 10px 0 ,
+    0 -2px 4px 0;
+    background: #222;
+    border-radius: 6px;
+    overflow: auto;
+}
+#box::-webkit-scrollbar{
+    width: 15px;
+}
+
+#box::-webkit-scrollbar-track{
+    background: rgb(69, 69, 109);
+    box-shadow: 0 2px 4px 0 ,
+    0 4px 10px 0 ,
+    0 -2px 4px 0;
+}
+#box::-webkit-scrollbar-thumb{
+    background: #222;
+    border-radius: 20px;
+    border: 1px solid transparent;
+    background-clip: content-box;
+    height: 100px;
+    box-shadow: 0 2px 4px 0 ,
+    0 4px 10px 0 ,
+    0 -2px 4px 0;
+}
+
+p{
+    display: flex;
+    align-items: center;
+}
+
+#text{
+    color: green;
+    margin-left: 10px;
+    font-weight: 500;
+}
+
+#username{
+    background: #222;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px 4px rgb(255, 255, 255, .2),
+    0 4px 10px 4px rgba(255, 255, 255, 0.2),
+    0 -2px 4px 4px rgba(255,255,255,.2);
+    margin-left: 5px;
+    height: 15px;
+    margin-left: 15px;
+    border: solid 1px white;
+    color: #fff;
+}
+
+#username:hover{
+    background: #fff;
+    box-shadow: 0 2px 4px 4px,
+    0 4px 10px 4px, 
+    0 -2px 4px 4px;
+    color: #222;
+}
+
+#btn{
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    box-shadow: 0 2px 4px 2px ,
+    0 4px 10px 2px ,
+    0 -2px 4px 2px;
+    background: #3a3939;
+    font-size: 26px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+#btn:hover{
+    background: #fff;
+}
+
+.icon-inner, .ionicon, svg {
+    display: flex;
+    align-content: center;
+}
+
+
+
+
